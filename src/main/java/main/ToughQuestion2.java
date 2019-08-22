@@ -44,11 +44,22 @@ class ToughQuestion2 {
             }
 }
 class Calories {
+	 int calculateCalories(int bread) {
+     	//System.out.println(brea
             
-            int calculateCalories() {
-            //you have to overload this function for three parameters refer the question
-            	return -1;
-            }
+         
+ 	return bread*74;
+}
+int calculateCalories(int bread,int jam) {
+	//System.out.println((bread*74+jam*26));
+    //you have to overload this function for three parameters refer the question
+    	return (bread*74+jam*26);
+    }
+int calculateCalories(int bread,int jam,int butter) {
+	//System.out.println((bread*74+jam*26+butter*102));
+    //you have to overload this function for three parameters refer the question
+    	return (bread*74+jam*26+butter*102);
+    }
             
             
             
